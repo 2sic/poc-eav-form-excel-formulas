@@ -41,6 +41,6 @@ hotP = new Handsontable(containerP, {
   licenseKey: 'non-commercial-and-evaluation',
   afterInit: function () {
     handsOnInstance = this;
-    console.log(handsOnInstance.getDataAtRowProp(0, ))
+    // console.log(handsOnInstance.getDataAtRowProp(0, ))
   }
 });
