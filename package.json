@@ -4,11 +4,17 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "run": "npx http-server"
+    "run": "npx http-server",
+    "watch": "webpack -w --mode development"
   },
   "author": "2sic",
   "license": "ISC",
+  "dependencies": {
+    "@handsontable/formulajs": "^2.0.2",
+    "hot-formula-parser": "^3.0.2",
+    "typescript": "^3.9.7"
+  },
   "devDependencies": {
-    "@handsontable/formulajs": "^2.0.2"
+    "ts-loader": "^8.0.2"
   }
 }
